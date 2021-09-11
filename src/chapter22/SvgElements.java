@@ -25,9 +25,11 @@ public class SvgElements {
 		for (WebElement e : barlist) {
 			act.moveToElement(e).perform();
 			
+			
+			
 		}
 		
-		
+		driver.quit();
 	}
 
 }
