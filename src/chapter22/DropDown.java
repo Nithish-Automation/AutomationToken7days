@@ -16,7 +16,7 @@ public class DropDown {
 	public static void main(String[] args) throws InterruptedException {
 		
 		ChromeOptions options =new ChromeOptions();
-		options.addArguments("headless");
+		options.addArguments("--headless");
 
 		WebDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
